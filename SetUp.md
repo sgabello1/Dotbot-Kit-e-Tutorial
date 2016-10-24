@@ -31,12 +31,12 @@ Ora digitate
 ```
 sudo dd bs=4M if=/dev/<il vostro device> | gzip > /home/<vostro_nome_utente>/<nome_dell_immagine>`date +%d%m%y`.gz
 ```
-queste istruzioni copieranno dalla SD alla vostra cartella sul pc con percorso: /home/<vostro_nome_utente>. 
+queste istruzioni copieranno dalla SD alla vostra cartella sul pc con percorso: ```/home/<vostro_nome_utente>. ```
 
 Nel mio caso digito *sudo dd bs=4M if=/dev/mmcblk0 | gzip > /home/sgabello/dotbot`date +%d%m%y`.gz*
 
 Perchè l'SD è in /dev/mmcblk0 e /home/sgabello/dotbot è il percorso con nome di dove lo voglio copiare. 
-Da notare che la *dotbot`date +%d%m%y* salva il nome dotbot con la data attuale in giorno/mese/anno. 
+Da notare che la ```dotbot`date +%d%m%y``` salva il nome dotbot con la data attuale in giorno/mese/anno. 
 Infatti il mio risultato è dotbot191016 (perchè l'avevo fatto il 19 ottobre 2016).
 
 Perfetto, ora prendiamo la copia da PC e bruciamola sulla nuova SD. 
