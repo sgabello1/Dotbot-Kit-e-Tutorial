@@ -1,4 +1,4 @@
-# DotBot Kit - Tutorial
+# DotBot Kit - Set Up del kit "ridotto"
 
 
 
@@ -31,7 +31,7 @@ Ora inserite l'SD nel PC e confrontando i risultati noterete che c'è un disposi
 - Ora digitate 
 
 ```
-sudo dd bs=4M if=/dev/il vostro device | gzip > /home/vostro_nome_utente/image`date +%d%m%y`.gz
+sudo dd bs=4M if=/dev/<il vostro device> | gzip > /home/<vostro_nome_utente>/image`date +%d%m%y`.gz
 ```
 e il 
 
