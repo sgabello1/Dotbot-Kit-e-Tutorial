@@ -13,8 +13,7 @@ __NB: questa è una versione beta e stiamo lavorando per rendere ancora più sem
 
 
 Su Ubuntu si eseguono poche operazioni.
-
-- Per capire quali device avete sul pc aprite un terminale e digitate:
+Per capire quali device avete sul pc aprite un terminale e digitate:
 
 ```
 sudo fdisk -l
@@ -25,7 +24,7 @@ Vi comparirà una cosa del genere
 
 ![] (disk1.png) 
 
-- Ora inserite l'SD nel PC e confrontando i risultati noterete che c'è un dispositivo in più. Nel mio caso  il /dev/mmcblk0
+Ora inserite l'SD nel PC e confrontando i risultati noterete che c'è un dispositivo in più. Nel mio caso  il /dev/mmcblk0
 
 ![] (disk2.png) 
 
