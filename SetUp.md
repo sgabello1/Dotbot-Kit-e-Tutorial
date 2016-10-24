@@ -45,9 +45,7 @@ Perfetto, ora prendiamo la copia da PC e bruciamola sulla nuova SD.
 sudo gzip -dc /home/<vostro_nome_utente>/<nome_immagine>.gz |sudo dd bs=4M of=/dev/<dispositivo_SD>
 ```
 Nel mio caso era: 
-sudo gzip -dc /home/sgabello/dotbot191016.gz |sudo dd bs=4M of=/dev/mmcblk0
-
-
+sudo gzip -dc /home/sgabello/dotbot191016.gz |sudo dd bs=4M of=/dev/mmcblk0. NB: lasciate stare che sotto la voce Device Boot quando fate sudo fdisk -l compare /dev/mmcblk0p1 e /dev/mmcblk0p2 p1 e p2 stanno per partition ma a noi non interessano.
 
 
 
