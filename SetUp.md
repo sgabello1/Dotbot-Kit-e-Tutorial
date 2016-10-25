@@ -132,5 +132,11 @@ nm-tool | grep \*
 
 Se compare il nome della vostra rete funziona tutto perfettamente!
 
+Oppure provate direttamente ad entrare in piattaforma scrivendo sul browser del vostro computer
+```
+http://dotbot.local/
+```
+Se entrare nell schermata iniziale di Dotbot funziona tutto correttamente! 
+
 Pronti a partire!
 ===
