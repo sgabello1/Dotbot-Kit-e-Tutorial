@@ -1,4 +1,4 @@
-# Copiare l'immagine su SD
+# Copiare l'immagine su SD in Ubuntu
 
 
 Su Ubuntu si eseguono poche operazioni.
