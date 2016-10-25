@@ -1,5 +1,6 @@
 # Copiare l'immagine su SD in Ubuntu
 
+Questo tutorial spiega come copiare l'immagine fornita da Hotblack robotics su una SD.
 
 Su Ubuntu si eseguono poche operazioni.
 Per capire quali device avete sul pc aprite un terminale e digitate:
