@@ -79,7 +79,7 @@ Quindi scansionate le reti intorno a voi con
 ```
 > scan
 ```
-e successivamente visualizzazte i risultati della scansione
+e successivamente visualizzate i risultati della scansione
 
 ```
 > scan_results
