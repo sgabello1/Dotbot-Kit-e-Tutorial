@@ -91,6 +91,3 @@ Oppure provate direttamente ad entrare in piattaforma scrivendo sul browser del 
 http://dotbot.local/
 ```
 Se entrare nell schermata iniziale di Dotbot funziona tutto correttamente! 
-
-Pronti a partire!
-===
