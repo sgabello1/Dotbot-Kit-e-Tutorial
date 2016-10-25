@@ -65,7 +65,7 @@ Ok ora connettiamoci alla rete wifi di casa vostra!
 
 Collegarsi ad una rete wifi
 ===
-Ditiate sul terminale 
+Digiate sul terminale 
 ```
 wpa_cli
 ```
