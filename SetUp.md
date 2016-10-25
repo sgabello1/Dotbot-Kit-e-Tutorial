@@ -55,6 +55,13 @@ NB: lasciate stare che sotto la voce Device Boot quando fate ```sudo fdisk -l```
 
 Connettersi al Raspberry
 ===
+Prendete un monitor e collegatelo al connettore HDMA del vostro Raspberry poi collegate anche una tastiera (il mouse non serve siccome non c'è interfaccia grafica). 
+Effettuate il login con le seguenti credenziali (nome utente e password):
+```
+user: root
+password: raspberry
+```
+Ok ora connettiamoci alla rete wifi di casa vostra!
 
 Collegarsi ad una rete wifi
 ===
