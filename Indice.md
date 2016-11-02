@@ -1,8 +1,7 @@
 DotBot Kit (Indice)
 ===
 
-1) Scaricate l'immagine 
-Scaricate l'immagine da questo [link] (https://www.dropbox.com/s/fyq7s22qx6cpdwf/dotbot191016.gz?dl=1)
+1) Scaricate l'immagine da questo [link] (https://www.dropbox.com/s/fyq7s22qx6cpdwf/dotbot191016.gz?dl=1)
 
 2) Preparate l'SD
 
