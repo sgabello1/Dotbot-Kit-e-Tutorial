@@ -60,10 +60,10 @@ Questo comando vi restituirà un numero ad esempio
 > add_network
 3
 ```
-Quindi inserite il nome della vostra rete (ssid) e la password con il relativo numero assegnato alla rete
+Quindi inserite il nome della rete (ssid) a cui volete che il Raspberry si connetta e la password necessaria alla connessione con il relativo numero assegnato alla rete
 ```
-set_network 3 ssid "Wifi-casa"
-set_network 3 psk "Lamiapasswordsegreta"
+set_network 3 ssid "Nome-del-Wifi"
+set_network 3 psk "La-password-che-serve-per-connettersi"
 ```
 ora 
 ```
