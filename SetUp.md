@@ -70,6 +70,10 @@ ora
 OK
 > save
 OK
+```
+Ora digitate enable_network [numero assegnato alla rete - in questo caso 3]
+
+```
 > enable_network 3
 OK
 > save
