@@ -61,6 +61,7 @@ Questo comando vi restituirà un numero ad esempio
 3
 ```
 Quindi inserite il nome della rete (ssid) a cui volete che il Raspberry si connetta e la password necessaria alla connessione con il relativo numero assegnato alla rete
+NB: ovviamente nel vostro caso non è detto che l'ID giusto sia il 3 quindi fate molta attenzione!!
 ```
 set_network 3 ssid "Nome-del-Wifi"
 set_network 3 psk "La-password-che-serve-per-connettersi"
@@ -79,19 +80,11 @@ OK
 > save
 OK
 > reconnect 
+OK
+> save
+OK
 ```
+NB: l'ultimo save dopo reconnect è ESSENZIALE altrimenti non vi salva la rete e tutto quanto fatto fin'ora andrà perso :)
 Premete CTR+C per uscire dalla modalità interattiva di wpa_cli e digitate ``` reboot ```  oppure riavviate anche in modo più grezzo togliendo e rimettendo l'alimentazione al Raspberry :)
 
-Ora per verificare che effettivamente tutto funzioni e sia configurato correttamente vediamo se siete connessi al nome della rete ssid che avete scelto
-
-```
-nm-tool | grep \*
-```
-
-Se compare il nome della vostra rete funziona tutto perfettamente!
-
-Oppure provate direttamente ad entrare in piattaforma scrivendo sul browser del vostro computer
-```
-http://dotbot.local/
-```
-Se entrare nell schermata iniziale di Dotbot funziona tutto correttamente! 
+Ora provate a conntettervi alla piattaforma a www.hotblackrobotics.com/cloud e premendo su connect vedere se si connette.
