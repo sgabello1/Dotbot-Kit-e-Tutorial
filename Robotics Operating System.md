@@ -11,7 +11,7 @@ Un’applicazione ROS è una rete di processi che scambiano dati in una rete di 
 
 * Nodo: un singolo processo (programma in esecuzione) all’interno della rete ROS
 * Messaggio: struttura dati con cui usata per lo scambio di informazioni. Un messaggio può essere di diversi formati sia standard che custom. Ad esempio un messaggio che contiene un semplice intero sarà fatto così { int32 x }
-* Topic: canale all’interno del quale due o più nodi si scambiano messaggi. Immaginate un topic come un canale di comunicazione dove i messaggi vengono trasmessi. Ogni topic viene chiamato /nome_del_topic e qualunque nodo può ascoltare (subscribe) o inviare messaggi (publish)
+* Topic: canale all’interno del quale due o più nodi si scambiano messaggi. Immaginate un topic come un canale di comunicazione dove i messaggi vengono trasmessi. Ogni topic usa il carattere *slash* prima del nome del topic (/nome_del_topic) ad esempio /chatter il topic dove due nodi si scambiano un semplice messaggio {String s}. La caratteristica importante e la potenzialità dei topic è che qualunque nodo può ascoltare (subscribe) o inviare messaggi (publish) sullo stesso topic in modo asincrono.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/ROScomm.png)
 
