@@ -1,8 +1,6 @@
 # DotBot Kit - Set Up del kit "ridotto"
 
-
-
-Questo semplice tutorial spiega come usare la piattaforma di cloud robotics con un kit minimale, un Raspberry pi 3 che si comporterà come il vostro robot in versione "ridotta".
+Questo semplice tutorial spiega come configurare il raspberry PI alla piattaforma di cloud robotics. Vedete per adesso il Raspberry PI come la versione ridotta del robot! :)
 
 __NB: questa è una versione beta e stiamo lavorando per rendere ancora più semplice l'utilizzo della piattaforma! Se hai problemi scrivici a info@hotblackrobotics.com__
 
