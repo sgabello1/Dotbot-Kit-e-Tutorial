@@ -8,7 +8,7 @@ La cloud robotics si pone all'interno della visione dell'Internet delle cose ma 
 
 Questa visione tecnologica è strettamente dipendente da una piattaforma di cloud robotics, che è il layer tecnologico che permette la comunicazione tra gli oggetti e lo storage delle informazioni. In generale la cloud robotics ha tre caratteristiche importanti:
 
-* L'astrazione dell'hardware: ovvero gli oggetti interconnessi alla rete (robot, senosori o dispositivi) 
+* L'astrazione dell'hardware: ovvero gli oggetti interconnessi alla rete (robot, senosori o dispositivi) vengono astratti e l'interfacia di comunicazione è semplificata e uguale per tutti. Agli occhi della piattaforma tutti i dispositivi sono uguali e non ci interessa che tipo di hardware sia e il linguaggio di comunicazione proprietario, la piattaforma si pone ad un livello più alto e traslascia i protocolli a più basso livello.
 * La condivisione delle informazioni
 * Il remote processing
 
