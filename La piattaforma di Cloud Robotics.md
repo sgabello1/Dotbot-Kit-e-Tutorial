@@ -11,6 +11,8 @@ La cloud robotics si pone all'interno della visione dell'Internet delle cose ma 
 
 ![] (http://jol.telecomitalia.com/jolcrab/wp-content/uploads/2014/06/cloudcomputing-01.jpg)
 
+![] (http://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/cloudcomputing-01.jpg)
+
 Questa visione tecnologica è strettamente dipendente da una piattaforma di cloud robotics, che è il layer tecnologico che permette la comunicazione tra gli oggetti e lo storage delle informazioni. In generale la cloud robotics ha tre caratteristiche importanti:
 
 * **L'astrazione dell'hardware:** ovvero gli oggetti interconnessi alla rete (robot, senosori o dispositivi) vengono astratti e l'interfacia di comunicazione è semplificata e uguale per tutti. Agli occhi della piattaforma tutti i dispositivi sono uguali e non ci interessa che tipo di hardware sia e il linguaggio di comunicazione proprietario, la piattaforma si pone ad un livello più alto e traslascia i protocolli a più basso livello. Ad esempio per una telecamera che comunica in cloud non ci interessa il protocollo di comunicazione, i driver che supporta, la marca, l'hardware, le API proprietarie ma tutto è astratto a livello più alto e la telecamera figurerà solo come un entità che genera uno stream video. Il nostro robottino Dotbot è un altro esempio che vedremo qui in particolare. Dotbot utilizza un Raspberry PI 3, diversi sensori e driver per i motori ma tutto è astratto dalla piattaforma e non c'è addirittura bisogno che chi utilizza Dotbot sappia che c'è un Raspberry e sappia come configurarlo!Il tutto è accessibile ed utilizzabile in modo semplice grazie alla piattaforma di cloud robotics.
