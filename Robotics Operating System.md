@@ -35,8 +35,18 @@ Un nodo è un processo (un programma in esecuzione) all’interno della rete ROS
     - Driver (controlla un sensore o attuatore
     - Elaborazione (esegue calcoli)
     
-In piattaforma trovate qui http://www.hotblackrobotics.com/cloud/webgui/console la console con la lista dei nodi attivi. 
+In piattaforma trovate sempre sotto la voce "ROS" (http://www.hotblackrobotics.com/cloud/webgui/console) sotto la voce "Nodes List" la lista dei nodi attivi. 
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/nodi.PNG )
+
+## TOPIC ##
+I topic sono i canali attraverso i quali i nodi comunicano nella rete.
+* Ogni topic è identificato da un nome unico
+* Un nodo che invia dati su un topic è detto *publisher*
+* Un nodo che riceve dati su un topic è detto *subscriber*
+
+Sotto alla sezione "Nodes List" trovate la lista dei topic ("Topics List").
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/topics.PNG)
 
 
