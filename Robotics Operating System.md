@@ -15,3 +15,4 @@ Un’applicazione ROS è una rete di processi che scambiano dati in una rete di 
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/ROScomm.png)
 
+Nell'immagine sopra un esempio di comunicazione tra nodi attraverso i diversi topic. I nodi sono le figure ovali e i topic le frecce.
