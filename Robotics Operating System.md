@@ -23,6 +23,10 @@ Andate sul sito di Hotblack Robotics (http://www.hotblackrobotics.com/) ed entra
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/cloudplatform.PNG) 
 
+La parte relativa la spiegazione di ROS la trovate nel menù in alto a sinistra sotto la voce "ROS". 
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/Entratiincloud.PNG) 
+
 ## NODI ##
 Un nodo è un processo (un programma in esecuzione) all’interno della rete ROS che esegue calcoli.
 * Ogni nodo è identificato da un nome unico nella rete
