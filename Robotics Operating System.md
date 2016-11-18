@@ -49,4 +49,16 @@ Sotto alla sezione "Nodes List" trovate la lista dei topic ("Topics List").
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/topics.PNG)
 
+## I MESSAGGI ##
+I messaggi sono i tipi di dati che vengono inviati attraverso il topic
+* Informano i nodi su come interpretare i bites scambiati nei topic
+* Ad ogni topic è associato un messaggio specifico
+* Possono essere tipi semplici (**int, float, bool**) o **strutture dati**
+
+## NAMESPACE ##
+Per distinguere nodi e topic con lo stesso nome si usano i namespace.
+* Prefisso da applicare ai topic e nodi
+* Definiscono una sottorete della rete ROS
+* Utili per distinguere lo stesso nodo/topic riferito a macchine diverse ma con la stessa funzione
+
 
