@@ -9,8 +9,6 @@ Internet delle cose quindi, perchè stiamo vivendo in questo periodo tecnologico
 
 La cloud robotics si pone all'interno della visione dell'Internet delle cose ma estesa anche ad "oggetti" che operano nell'ambiente fisico oltre che quello digitale, i robot. Nel futuro imminente vediamo robot interconnessi tra loro e agli oggetti "smart" che oltre comunicare tramite Internet effettuano anche delle azioni nel mondo fisico. Immaginiamo ad esempio la self driving car di Google interconnessa a tutte le altre autonomibili autonome ottimizzare il traffico e risolvere tutte le nostre necessità legate alla mobilità. Un esempio già molto attuale, il [Roomba] (http://www.irobot.it/roomba/) il robot aspirapolvere connesso con gli altri dispositivi smart della casa. O esempi più fantascientifici come il braccio robotico che cucina in casa apprendendo dalla rete dai migliori chef al mondo, flotte di droni per il trasporto di merci o per il monitoraggio intelligente della citta senza il bisogno di infrastrutture.
 
-![] (http://jol.telecomitalia.com/jolcrab/wp-content/uploads/2014/06/cloudcomputing-01.jpg)
-
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/cloudcomputing-01.jpg)
 
 Questa visione tecnologica è strettamente dipendente da una piattaforma di cloud robotics, che è il layer tecnologico che permette la comunicazione tra gli oggetti e lo storage delle informazioni. In generale la cloud robotics ha tre caratteristiche importanti:
