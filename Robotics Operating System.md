@@ -27,7 +27,7 @@ La parte relativa la spiegazione di ROS la trovate nel menù in alto a sinistra 
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/Entratiincloud.PNG) 
 
-## NODI ##
+## Nodi ##
 Un nodo è un processo (un programma in esecuzione) all’interno della rete ROS che esegue calcoli.
 * Ogni nodo è identificato da un nome unico nella rete
 * I nodi si scambiano messaggi per interagire tra loro tramite i topic
@@ -39,7 +39,7 @@ In piattaforma trovate sempre sotto la voce "ROS" (http://www.hotblackrobotics.c
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/nodi.PNG )
 
-## TOPIC ##
+## Topic ##
 I topic sono i canali attraverso i quali i nodi comunicano nella rete.
 * Ogni topic è identificato da un nome unico
 * Un nodo che invia dati su un topic è detto *publisher*
@@ -49,13 +49,13 @@ Sotto alla sezione "Nodes List" trovate la lista dei topic ("Topics List").
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/topics.PNG)
 
-## I MESSAGGI ##
+## I messaggi ##
 I messaggi sono i tipi di dati che vengono inviati attraverso il topic
 * Informano i nodi su come interpretare i bites scambiati nei topic
 * Ad ogni topic è associato un messaggio specifico
 * Possono essere tipi semplici (**int, float, bool**) o **strutture dati**
 
-## NAMESPACE ##
+## Namespace ##
 Per distinguere nodi e topic con lo stesso nome si usano i namespace.
 * Prefisso da applicare ai topic e nodi
 * Definiscono una sottorete della rete ROS
