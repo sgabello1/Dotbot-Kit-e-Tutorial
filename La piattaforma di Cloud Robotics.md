@@ -11,7 +11,7 @@ La cloud robotics si pone all'interno della visione dell'Internet delle cose ma 
 
 ![] (http://jol.telecomitalia.com/jolcrab/wp-content/uploads/2014/06/cloudcomputing-01.jpg)
 
-![] (http://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/cloudcomputing-01.jpg)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/cloudcomputing-01.jpg)
 
 Questa visione tecnologica è strettamente dipendente da una piattaforma di cloud robotics, che è il layer tecnologico che permette la comunicazione tra gli oggetti e lo storage delle informazioni. In generale la cloud robotics ha tre caratteristiche importanti:
 
