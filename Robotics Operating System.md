@@ -1,0 +1,3 @@
+## Il fondamento della piattaforma di Cloud Robotics: Robotics Operating System ##
+
+La base tecnologica su cui si basa la piattaforma di cloud robotics è [ROS (Robotic Operating System)] (http://wiki.ros.org/it). ROS è un framework software open source che permette lo sviluppo e la programmazione di robot. Fornisce le stesse funzioni di un sistema operativo come: astrazione dell'hardware, controllo dei dispositivi tramite driver, comunicazione tra processi, gestione delle applicazioni e altre funzioni di uso comune. Si presta particolarmente bene alle nostre esigenze legate all'internet delle cose poichè è un **sistema distribuito**, il che significa che diversi programmi sono distribuiti su robot differenti e comunicano tutti tramite la piattaforma.
