@@ -16,7 +16,7 @@ Un’applicazione ROS è una rete di processi che scambiano dati in una rete di 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/ROScomm.png)
 
 Nell'immagine sopra un esempio di comunicazione tra nodi attraverso i diversi topic. I nodi sono le figure ovali e i topic le frecce.
-Rivediamo ora meglio i vari attori.
+Rivediamo ora meglio i vari attori in piattaforma!
 
 ## NODI ##
 Un nodo è un processo (un programma in esecuzione) all’interno della rete ROS che esegue calcoli.
@@ -25,5 +25,9 @@ Un nodo è un processo (un programma in esecuzione) all’interno della rete ROS
 * Ad ogni nodo è associato un compito. Due categorie
     - Driver (controlla un sensore o attuatore
     - Elaborazione (esegue calcoli)
+    
+In piattaforma trovate qui http://www.hotblackrobotics.com/cloud/webgui/console la console con la lista dei nodi attivi. 
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/nodi.PNG )
 
 
