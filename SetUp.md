@@ -64,7 +64,7 @@ NB: ovviamente nel vostro caso non è detto che l'ID giusto sia il 3 quindi fate
 set_network 3 ssid "Nome-del-Wifi"
 set_network 3 psk "La-password-che-serve-per-connettersi"
 ```
-NB: nel caso in cui vogliate connettere il robot ad una rete senza password saltate il comando "set_network 3 psk "La-password-che-serve-per-connettersi" "
+NB: nel caso in cui vogliate connettere il robot ad una rete senza password saltate il comando "set_network 3 psk "La-password-che-serve-per-connettersi" ". Secondo la nostra esperienza è sempre meglio in ogni caso avere una password :) (anche semplice)!! 
 ora 
 ```
 OK
