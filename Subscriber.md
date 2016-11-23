@@ -94,7 +94,7 @@ Notiamo subito l'utilizzo della classe Node(). Poi dichiariamo i 2 publisher e i
         self.input_sub = rospy.Subscriber('led', Led, self.on_input)
 
 ```
-Dentro la funzione `on_input` dobbiamo sempre mettere la parola "magica" self e il messaggio letto dal subscriber `input_msg`. Il messaggio `input_msg` è a tutti gli effetti un messaggio di tipo Led quindi avrà gli stessi campi (led1,led2,led3) che andremo ad utilizzare per riempire il messaggio che vogliamo pubblicare con `led_re_pub.publish(led_msg2)`.
+Dentro la funzione `on_input` dobbiamo sempre mettere la parola "magica" self e il messaggio letto dal subscriber `input_msg`. Il messaggio `input_msg` è a tutti gli effetti un messaggio di tipo Led quindi avrà gli stessi campi (led1,led2,led3) che andremo ad utilizzare per riempire il messaggio che vogliamo pubblicare con `led_re_pub.publish(led_msg2)` andando a riempire il terzo campo con i valori del primo così che ce ne possiamo rendere conto quando andremo a visualizzare il topic /repub_led dalla finestra ROS.
 
 ```
 
