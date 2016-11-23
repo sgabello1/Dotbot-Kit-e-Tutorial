@@ -1,5 +1,5 @@
 ## Iniziamo a programmare! ##
-Ok, abbiamo visto la parte teorica e ora è il momento di buttarsi nel vivo della programmazione! Questo tutorial spiega **una volta che il robot è configurato correttamente** (altrimenti seguite [**il tutorial di configurazione del kit minimale**](http://www.hotblackrobotics.com/forum/support/6))  come programmarlo.
+Ok, abbiamo visto la parte teorica e ora è il momento di buttarsi nel vivo della programmazione! Questo tutorial spiega **una volta che il robot è configurato correttamente** come programmarlo (altrimenti seguite [**il tutorial di configurazione del kit minimale**](http://www.hotblackrobotics.com/forum/support/6)).
 
 ##  Connettete il robot
 Quando entrate nella piattaforma (una volta effettuato il login) apparirà una schermata simile a questa.
