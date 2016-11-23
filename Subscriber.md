@@ -39,11 +39,11 @@ if __name__ == '__main__':
 
 ```
 
-Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero classe. Nessun problema una classe è simile ad una funzione, o meglio è un struttura dati che può avere funzioni e dati. In questo caso infatti abbiamo una funzione dentro la classe di inizializzazione `__init(self)__` che richiama un'altra funzione all'esterno della classe che abbiamo definito noi come "pari(num)". I caratteri *underscore* ovvero '_' 
+Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero classe. Nessun problema una classe è simile ad una funzione, o meglio è un struttura dati che può avere funzioni e dati. In questo caso infatti abbiamo una funzione dentro la classe di inizializzazione `__init(self)__` che richiama un'altra funzione all'esterno della classe che abbiamo definito noi come "pari(num)". I caratteri *underscore* ovvero `__`  sono caratteri "magici" di Python per indicare funzioni particolari, come in questo caso il fatto che è una funzione di inizializzazione della classe.
 
 ## Implementiamo un Subscriber ##
 Una volta capito come è implementato un Publisher possiamo scrivere un semplice codice per implementare invece un subscriber!
-Questo esempio è molto più fine: implementeremo un publisher che pubblica appunto il valore di un Led, poi un subscriber che legge il messaggio sul topic /led e lo ripubblica su un altro topic /repub_led invertendo i led il primo con il terzo. 
+Questo esempio è molto più fine: implementeremo un publisher che pubblica appunto il valore di un Led, poi un subscriber che legge il messaggio sul topic /led e lo ripubblica su un altro topic /repub_led invertendo i led il primo con il terzo. Poi sempre nella stessa funzione compare un parametro nuovo: `self`. Self è un modo che ha Python di accedere a tutte le funzioni e parametri del codice, se vi dimenticate molto probabilmente darà errore perchè è come se Python vedesse ogni classe e funzione come mondo a se stante.
 
 Il codice è
 
