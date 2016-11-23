@@ -1,3 +1,46 @@
+## Le classi e le "magie" di Python ##
+Ora riscriviamo il publisher ma con delle finezze in più che ci aiuteranno nella comprensione dell'esempio successivo.
+Il codice diventerà così:
+
+```
+
+#!/usr/bin/env python
+
+import rospy
+from dotbot_msgs.msg import Led
+
+def pari(num):
+    return num % 2 == 0
+
+class Node():
+    def __init__(self):
+        self.led_pub = rospy.Publisher('led', Led, queue_size=10)
+        
+        rospy.init_node('led_cnt_classe')
+        
+        rate = rospy.Rate(1)
+        
+        self.cnt = 0
+        
+        while not rospy.is_shutdown():
+            self.cnt += 1
+            msg = Led()
+            msg.led1 = pari(self.cnt)
+            self.led_pub.publish(msg)
+            rate.sleep()
+        msg = Led()
+        self.led_pub.publish(msg)
+
+if __name__ == '__main__':
+    try:
+        ne = Node()
+    except rospy.ROSInterruptException:
+        pass
+
+```
+
+Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero classe. Nessun problema una classe è simile ad una funzione, o meglio è un struttura dati che può avere funzioni e dati. In questo caso infatti abbiamo una funzione dentro la classe di inizializzazione '_''_'init(self)'_''_' che richiama un'altra funzione all'esterno della classe che abbiamo definito noi come "pari(num)". I caratteri *underscore* ovvero '_' 
+
 ## Implementiamo un Subscriber ##
 Una volta capito come è implementato un Publisher possiamo scrivere un semplice codice per implementare invece un subscriber!
 Questo esempio è molto più fine: implementeremo un publisher che pubblica appunto il valore di un Led, poi un subscriber che legge il messaggio sul topic /led e lo ripubblica su un altro topic /repub_led invertendo i led il primo con il terzo. 
