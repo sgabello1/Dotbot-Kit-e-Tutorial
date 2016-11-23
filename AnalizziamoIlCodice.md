@@ -38,4 +38,22 @@ Poi dichiariamo una funzione **talker**, dove all'interno c'è un **Publisher**.
 ```
 def talker():
         pub = rospy.Publisher('led', Led, queue_size=10)
+
 ```
+Qui viene inizializzato il nome del nodo che sarà eseguito. Questo lo vedrete in esecuzione nella finestra ROS in "Node List" come appunto "/hotbot/bliker_node".
+```
+        rospy.init_node('blinker_node')
+```
+Poi c'è un delay per far si che il led si accenda e si spenga alla frequenza scelta da noi. Rate(20) è un ritardo corrispondente alla frequenza di 20Hz, quindi 1/20 = 0,05 secondi. 
+```
+        rate = rospy.Rate(20)
+```
+Qui c'è un ciclo while infinito. All'interno del while il campo **led1** del messaggio **Led**  viene continuamente riempito di valori alternanti tra 0 e 1. Questi valori cambiano continuamente tramite la srtinga  = (cnt % 2). La variabile cnt che è incrementata ogni ciclo ed è calcolato il resto della divisione per 2 con l'operatore %2. Il messaggio è inizializzato con == 0. 
+```
+while not rospy.is_shutdown():
+            led_msg = Led()
+            led_msg.led1 = (cnt % 2) == 0
+            cnt += 1
+            pub.publish(led_msg)
+            rate.sleep()
+```            
