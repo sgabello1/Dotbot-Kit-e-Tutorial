@@ -2,6 +2,13 @@
 Ok, abbiamo visto la parte teorica e ora è il momento di buttarsi nel vivo della programmazione! Questo tutorial spiega **una volta che il robot è configurato correttamente** (altrimenti seguite [**il tutorial di configurazione del kit minimale**](http://www.hotblackrobotics.com/forum/support/6))  come programmarlo.
 
 ##  Connettete il robot
+Quando entrate nella piattaforma (una volta effettuato il login) apparirà una schermata simile a questa.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/login.PNG)
+
+Inserite quindi il nome del robot, nel mio caso è **hotbot** con l'aggiunta ".local", "hotbot.local" e premete il pulsante "Cerca Robot". A questo punto inizierà la ricerca del robot nella vostra rete locale. E' assolutamente necessario che il computer (o smartphone/tablet) sia connesso alla stessa rete locale del robot altrimenti non lo troverà mai! L'interfaccia vi risponderà in caso di successo con "Robot trovato" e tutti i dati relativi al robot: il nome, il master (questo è il nodo centrale di ROS) e l'indirizzo IP.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/robot_trovato.PNG)
 
 
 ##  L'IDE di sviluppo
