@@ -11,4 +11,11 @@ Quindi per iniziare col primo esempio clonate "**led_cn**t" dalla sezione exampl
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/esempio_led.PNG)
 
 In alto a destra avete questi pulsanti molto utili:
+
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/pulsanti_edit.PNG)
+
+* run: esegue il codice sul robot connesso (ricordatevi sempre però prima di premere questo pulsante di salvare! - pulsante successivo)
+* save: salva le modifiche del codice
+* shell: apre una shell e ti dice cosa sta succedendo, importante anche in caso di debug
+* download: vi permette di scaricare il codice
+* edit info: vi permette di cambiare nome del programma, aggiungere una breve descrizione al programma es "questo codice fa accendere un led" e se volete rendere pubblico il vostro codice. Rendere pubblico significa che altri utenti lo possono visualizzare e poi clonare nella proprio profilo 
