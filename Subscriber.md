@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
 ```
 
-Notiamo subito l'utilizzo della classe Node(). Poi dichiariamo i 2 publisher e il subscriber. Il subsciber è analogo al publisher per quanto riguarda i primi due campi **led**, ovvero il nome del topic su cui dovrà leggere, e **Led**, il tipo di messaggio che dovrà leggere. Il terzo campo invece è una funzione dichiarata in seguito che ha la caratteristica di essere chiamata **solo** tutte le volte che qualcuno pubblica un messaggio nel topic. Non funziona in modo procedurale ma ogni volta che arriva un messaggio nel topic /led viene richiamata la funzione "on_input", la quale a sua volta ripubblicherà un altro messaggio Led.
+Notiamo subito l'utilizzo della classe Node(). Poi dichiariamo i 2 publisher e il subscriber. Il subsciber è analogo al publisher per quanto riguarda i primi due campi **led**, ovvero il nome del topic su cui dovrà leggere, e **Led**, il tipo di messaggio che dovrà leggere. Il terzo campo invece è una funzione dichiarata in seguito che ha la caratteristica di essere chiamata **solo** tutte le volte che qualcuno pubblica un messaggio nel topic. Questo significa che solo se arriva un messaggio nel topic /led viene richiamata la funzione "on_input", la quale a sua volta ripubblicherà un altro messaggio Led.
 
 ```
         self.led_pub = rospy.Publisher('led', Led, queue_size=10)
