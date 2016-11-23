@@ -48,7 +48,7 @@ Poi c'è un delay per far si che il led si accenda e si spenga alla frequenza sc
 ```
         rate = rospy.Rate(20)
 ```
-Qui c'è un ciclo while infinito. All'interno del while il campo **led1** del messaggio **Led**  viene continuamente riempito di valori alternanti tra 0 e 1. Questi valori cambiano continuamente tramite la srtinga  = (cnt % 2). La variabile cnt che è incrementata ogni ciclo ed è calcolato il resto della divisione per 2 con l'operatore %2. Il messaggio è inizializzato con == 0. 
+Qui c'è un ciclo while infinito. All'interno del while il campo **led1** del messaggio **Led**  viene continuamente riempito di valori alternanti tra 0 e 1. Questi valori cambiano continuamente tramite la srtinga  = (cnt % 2). La variabile cnt con cnt += 1  è incrementata ogni ciclo ed è calcolato il resto della divisione per 2 con l'operatore %2. Il messaggio è inizializzato con == 0. Il messaggio è pubblicato con la funzione pub.publish(led_msg) e infine viene ritardato del tempo scelto in precedenza.
 ```
 while not rospy.is_shutdown():
             led_msg = Led()
