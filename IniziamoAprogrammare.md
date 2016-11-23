@@ -9,3 +9,6 @@ Andate su http://www.hotblackrobotics.com/cloud/sketch/ e troverete due sezioni:
 Quindi per iniziare col primo esempio clonate "**led_cn**t" dalla sezione examples a vedrete che comparirà in programs. Premete a questo punto sul pulsante "edit" e vedrete che potete visualizzare il codice. 
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/esempio_led.PNG)
+
+In alto a destra avete questi pulsanti molto utili:
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/pulsanti_edit.PNG)
