@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
 ```
 
-Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero classe. Nessun problema una classe è simile ad una funzione, o meglio è un struttura dati che può avere funzioni e dati. In questo caso infatti abbiamo una funzione dentro la classe di inizializzazione '_''_'init(self)'_''_' che richiama un'altra funzione all'esterno della classe che abbiamo definito noi come "pari(num)". I caratteri *underscore* ovvero '_' 
+Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero classe. Nessun problema una classe è simile ad una funzione, o meglio è un struttura dati che può avere funzioni e dati. In questo caso infatti abbiamo una funzione dentro la classe di inizializzazione '__init(self)__' che richiama un'altra funzione all'esterno della classe che abbiamo definito noi come "pari(num)". I caratteri *underscore* ovvero '_' 
 
 ## Implementiamo un Subscriber ##
 Una volta capito come è implementato un Publisher possiamo scrivere un semplice codice per implementare invece un subscriber!
