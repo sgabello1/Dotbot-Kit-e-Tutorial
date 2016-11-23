@@ -43,7 +43,7 @@ Cosa cambia? Beh un bel po' di cose! Innanzitutto compare il nome "class" ovvero
 
 ## Implementiamo un Subscriber ##
 Una volta capito come è implementato un Publisher e le relative "finezze" possiamo scrivere un semplice codice per implementare invece un subscriber!
-Questo esempio è molto più fine: implementeremo un publisher che pubblica appunto il valore di un Led, poi un subscriber che legge il messaggio sul topic /led e lo ripubblica su un altro topic /repub_led invertendo i led il primo con il terzo. 
+Questo esempio funziona così: implementeremo un publisher che pubblica appunto il valore di un Led, poi un subscriber che legge il messaggio sul topic /led e lo ripubblica su un altro topic /repub_led invertendo i led il primo con il terzo. 
 
 Il codice è
 
