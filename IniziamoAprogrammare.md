@@ -20,7 +20,7 @@ Quindi per iniziare col primo esempio clonate "**led_cn**t" dalla sezione exampl
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/esempio_led.PNG)
 
-In alto a destra avete questi pulsanti molto utili:
+In alto a destra troverete questi pulsanti molto utili:
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/pulsanti_edit.PNG)
 
