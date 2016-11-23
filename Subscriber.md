@@ -104,3 +104,6 @@ Dentro la funzione `on_input` dobbiamo sempre mettere la parola "magica" self e 
         self.led_re_pub.publish(led_msg2)
         
 ```
+
+
+
