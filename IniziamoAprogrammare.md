@@ -28,7 +28,7 @@ In alto a destra troverete questi pulsanti molto utili:
 * save: salva le modifiche del codice
 * shell: apre una shell e ti dice cosa sta succedendo, importante anche in caso di debug
 * download: vi permette di scaricare il codice
-* edit info: vi permette di cambiare nome del programma, aggiungere una breve descrizione al programma es "questo codice fa accendere un led" e se volete rendere pubblico il vostro codice. Rendere pubblico significa che altri utenti lo possono visualizzare e poi clonare nella proprio profilo 
+* edit info: vi permette di cambiare nome del programma, aggiungere una breve descrizione al programma es "questo codice fa accendere un led" e se volete rendere pubblico il vostro codice. Rendere pubblico significa che altri utenti lo possono visualizzare e poi clonare nel proprio profilo 
 
 Ora (salvate per sicurezza col tasto save) ed eseguite il codice "led_cnt" con il tasto esegui. Si aprirà la shell che vi comunicherà che il nodo è in esecuzione "node running".
 A questo punto per verificare che il programma effettivamente sta funzionando, ritornate nella finestra "ROS". Andate nella sezione "Topics List" e premete il pulsante "echo" nel topic "/hotbot/led" (ovvviamente hotbot è il robot di default se nel vostro caso avete un altro nome sarà diverso - ad es. dotbot ecc). Si aprirà sotto una finestra che visualizza i messaggi in tempo reale che stanno passando nel topic, in questo caso è un messaggio composto da tre campi  "led1", "led2" e "led" perchè vogliamo con un messaggio solo controllare i 3 led del robot. Vederete che il campo del led1 cambia continuamente alternando true/false facendo così accenderlo e spegnerlo.
