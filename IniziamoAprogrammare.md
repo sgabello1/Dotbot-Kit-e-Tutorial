@@ -18,7 +18,7 @@ Andate su http://www.hotblackrobotics.com/cloud/sketch/ e troverete due sezioni:
 
 Quindi per iniziare col primo esempio clonate "**dotbot_led_cnt**" dalla sezione examples a vedrete che comparirà in programs. Premete a questo punto sul pulsante "edit" e vedrete che potete visualizzare il codice. 
 
-![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/esempio_led.PNG)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/dotbotledcnt.PNG)
 
 In alto a destra troverete questi pulsanti molto utili:
 
