@@ -16,4 +16,6 @@ Collegatelo al router della rete che volete configurare a cui è collegato il pc
 Questa è una partica che vi permette di configurare semplicemeten il Raspebrry senza che voi dobbiate entrare nel Raspberry e digitare vari comandi in Linux!:)
 
 
-Ora andate su http://hotbot.local/wifi/schemes
+Ora su Chrome andate su http://hotbot.local/wifi/schemes e si aprirà una schermata simile a questa.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/shcemes.PNG)
