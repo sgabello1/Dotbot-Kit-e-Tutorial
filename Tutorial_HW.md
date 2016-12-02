@@ -12,7 +12,7 @@ Iniziamo a stampare con una stampante 3D i seguenti file STL:
 * [db-rect.stl] (MANCANO!!)
 
 ## La lista dei componenti ##
-*  13 giunti 25 mm x 3mm
+*  9 giunti 25 mm x 3mm
 *  30 viti M3 da 10 mm (oppure 5 mm)
 *  4 viti M3 da 30 mm
 *  10 bulloni M3
