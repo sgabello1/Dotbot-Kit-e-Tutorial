@@ -29,3 +29,5 @@ Voi ne selezionate una e digitate la password nella casella sottostante. Infine 
 E vedrete che è connesso!
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/Connected.jpeg)
+
+Ora riavviate il Robot e ci metterà un minuto buono a riavviarsi.
