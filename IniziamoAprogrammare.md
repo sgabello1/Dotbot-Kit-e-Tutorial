@@ -14,7 +14,7 @@ Inserite quindi il nome del robot, nel mio caso è **hotbot** con l'aggiunta ".l
 ##  L'IDE di sviluppo
 Andate su http://www.hotblackrobotics.com/cloud/sketch/ e troverete due sezioni: una "Programs", sono i vostri programmi e "Examples" sono gli esempi che trovate già in piattaforma. Questi potete visualizzarli col tasto "View" e clonarli nella vostra sezione "Programs" così che possiate modificarli ed utilizzarli. Notate che per clonarli premete sul tasto "Clone" e su questo c'è il numero di volte che è stato clonato. Questo per dare una specie di indice di popolarità sui programmi più clonati, e quindi più apprezzati :) vedremo dopo che, se volete, anche i vostri programmi possono essere condivisi agli altri utenti in piattaforma e più volte il vostro programma sarà clonato più significa che avete fatto un ottimo lavoro!
 
-![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/programs.PNG)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/programs.PNG) 
 
 Quindi per iniziare col primo esempio clonate "**dotbot_led_cnt**" dalla sezione examples a vedrete che comparirà in programs. Premete a questo punto sul pulsante "edit" e vedrete che potete visualizzare il codice. 
 
