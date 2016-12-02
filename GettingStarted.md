@@ -23,3 +23,5 @@ Ora su Chrome andate su http://hotbot.local/wifi/schemes e si aprirà una scherm
 Premete su "Configure" e si aprirà una schermata con la lista delle reti locali.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/list.PNG ) 
+
+Voi ne selezionate una e digitate la password nella casella sottostante. Infine premete "Submit".
