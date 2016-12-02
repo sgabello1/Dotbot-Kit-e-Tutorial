@@ -11,3 +11,13 @@ Iniziamo a stampare con una stampante 3D i seguenti file STL:
 * [db-top.stl] (https://github.com/sgabello1/Dotbot-Kit-e-Tutorial/blob/master/db-top.stl)
 * [db-rect.stl] (MANCANO!!)
 
+## La lista dei componenti ##
+*  13 giunti 25 mm x 3mm
+*  30 viti M3 da 10 mm (oppure 5 mm)
+*  4 viti M3 da 30 mm
+*  10 bulloni M3
+*  2 biglie di vetro
+*  2 motorini CC
+*  2 ruote
+*  1 contenitore per batterie (6 batterie da 1,5 V AA)
+*  1 breadboard da 400 fori
