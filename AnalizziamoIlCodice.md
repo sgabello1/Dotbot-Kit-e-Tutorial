@@ -35,6 +35,6 @@ In seguito abbiamo due funzioni principali una ` def setup(self):` chiamata solo
 
 Con la funzione `self.led_pub = dotbot_ros.Publisher('led', Led)` definiamo un Publisher che pubblica sul topic "led" il messaggio di tipo Led.
 
-Nella funzione loop invece istanziamo il messaggio msg di tipo Led con `msg = Led()`, gli assegniamo un valore che alterna tra True e False. Incrementiamo all'inizio del loop la variabile `self.cnt *= 1`. Poi entriamo nel if e calcoliamo il resto di self.cnt diviso per 2 con l'operatore %. Se il resto è uguale a 0 allora riempiamo il messaggio msg con True e il led si accenderà altrimenti il contrario.
+Nella funzione loop invece istanziamo il messaggio msg di tipo Led con `msg = Led()`, gli assegniamo un valore che alterna tra True e False. Incrementiamo all'inizio del loop la variabile `self.cnt += 1`. Poi entriamo nel if e calcoliamo il resto di self.cnt diviso per 2 con l'operatore %. Se il resto è uguale a 0 allora riempiamo il messaggio msg con True e il led si accenderà altrimenti il contrario.
 Infine pubblichiamo il messaggio con `self.led_pub.publish(msg)` scriviamo a schermo il valore di cnt. La funzione sys.stdout.flush() serve  a scrivere a schermo.
 
