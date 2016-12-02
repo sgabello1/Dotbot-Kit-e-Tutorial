@@ -19,3 +19,7 @@ Questa è una partica che vi permette di configurare semplicemeten il Raspebrry 
 Ora su Chrome andate su http://hotbot.local/wifi/schemes e si aprirà una schermata simile a questa.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/shcemes.PNG)
+
+Premete su "Configure" e si aprirà una schermata con la lista delle reti locali.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/list.PNG ) 
