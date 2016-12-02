@@ -1,59 +1,40 @@
 ## Analizziamo il codice del primo esempio ##
-Analizziamo il codice di **led_cnt**. Le parti evidenziate sono da trascurare perchè non sono importanti!
-
-![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/codice_led.png) 
-
+Analizziamo il codice di `dotbot_led_cnt`.
 Se volete copiarlo qui:
 ```
-#!/usr/bin/env python
-
-import rospy
+import dotbot_ros
 from dotbot_msgs.msg import Led
+import sys
 
-def talker():
-        pub = rospy.Publisher('led', Led, queue_size=10)
-        rospy.init_node('blinker_node')
-        rate = rospy.Rate(20)
-        cnt = 0
-        while not rospy.is_shutdown():
-            led_msg = Led()
-            led_msg.led1 = (cnt % 2) == 0
-            cnt += 1
-            pub.publish(led_msg)
-            rate.sleep()
-        
-if __name__ == '__main__':
-    try:
-        talker()
-    except rospy.ROSInterruptException:
-        pass
+class Node(dotbot_ros.DotbotNode):
+    node_name = 'led_cnt'
+    def setup(self):
+        self.led_pub = dotbot_ros.Publisher('led', Led)
+        self.loop_rate = dotbot_ros.Rate(2)
+        self.cnt = 0
+        print 'setup'
+
+    def loop(self):
+        self.cnt += 1
+        msg = Led()
+        if self.cnt % 2 == 0:
+            msg.led1 = True
+        else:
+            msg.led1 = False
+        self.led_pub.publish(msg)
+        print 'cnt', self.cnt
+        sys.stdout.flush()
 ```
 Iniziamo ad analizzare alcune righe di codice.
-Questa prima riga significa che alcune librerie di Python devono essere aggiunte, ovvero il messaggio di tipo **Led** deve esssere importato nel codice.
+Queste prime righe significano che alcune librerie di Python devono essere aggiunte, in particolare il messaggio di tipo **Led** deve esssere importato nel codice.
 ```
 from dotbot_msgs.msg import Led
 ```
-Poi dichiariamo una funzione **talker**, dove all'interno c'è un **Publisher**. Il publisher è dichiarato con una variabile in questo caso di nome **pub** = rospy.Publisher('led', Led, queue_size=10) con tre campi: **led** che è il nome del topic ROS in cui manderà il messaggio, **Led** è il tipo di messaggio che abbiamo importato in precedenza, **queue_size** è la lunghezza del buffer nel topic - in altre parole meno tecniche è il numero di messaggi che possono "accodarsi" nel topic prima che vengano buttati, in questo caso se pubblichiamo velocemente 10 messaggi e nessuno li legge i messaggi dall undicesimo in poi verranno buttati.
+Poi dichiariamo il Nodo, con la dicitura `class Node(dotbot_ros.DotbotNode):` e il nome del nodo con `node_name = 'led_cnt'` .
+In seguito abbiamo due funzioni principali una ` def setup(self):` chiamata solo una volta all'inizio dell'esecuzione del programma e un'altra che viene eseguita all'infinito ` def loop(self):`. Quest'ultima viene eseguita ad una frequenza impostata nella funzione setup con il comando `self.loop_rate = dotbot_ros.Rate(2)`.NOTA BENE self è una parola magica che non va mai dimenticata! In questo caso la frequenza è di 2Hz. **NOTA BENE se non impostate la frequenza con questo comando la funzione loop non sarà mai richiamata!**
 
-```
-def talker():
-        pub = rospy.Publisher('led', Led, queue_size=10)
+Con la funzione `self.led_pub = dotbot_ros.Publisher('led', Led)` definiamo un Publisher che pubblica sul topic "led" il messaggio di tipo Led.
 
-```
-Qui viene inizializzato il nome del nodo che sarà eseguito. Questo lo vedrete in esecuzione nella finestra ROS in "Node List" come appunto "/hotbot/bliker_node".
-```
-        rospy.init_node('blinker_node')
-```
-Poi c'è un delay per far si che il led si accenda e si spenga alla frequenza scelta da noi. Rate(20) è un ritardo corrispondente alla frequenza di 20Hz, quindi 1/20 = 0,05 secondi. 
-```
-        rate = rospy.Rate(20)
-```
-Qui c'è un ciclo while infinito. All'interno del while il campo **led1** del messaggio **Led**  viene continuamente riempito di valori alternanti tra 0 e 1. Questi valori cambiano continuamente tramite la srtinga  = (cnt % 2). La variabile cnt con cnt += 1  è incrementata ogni ciclo ed è calcolato il resto della divisione per 2 con l'operatore %2. Il messaggio è inizializzato con == 0. Il messaggio è pubblicato con la funzione pub.publish(led_msg) e infine viene ritardato del tempo scelto in precedenza.
-```
-while not rospy.is_shutdown():
-            led_msg = Led()
-            led_msg.led1 = (cnt % 2) == 0
-            cnt += 1
-            pub.publish(led_msg)
-            rate.sleep()
-```            
+Nella funzione loop invece istanziamo il messaggio msg di tipo Led con `msg = Led()`, gli assegniamo un valore che alterna tra True e False. Incrementiamo all'inizio del loop la variabile `self.cnt *= 1`. Poi entriamo nel if e calcoliamo il resto di self.cnt diviso per 2 con l'operatore %. Se il resto è uguale a 0 allora riempiamo il messaggio msg con True e il led si accenderà altrimenti il contrario.
+Infine pubblichiamo il messaggio con `self.led_pub.publish(msg)` scriviamo a schermo il valore di cnt. La funzione sys.stdout.flush() serve  a scrivere a schermo.
+
