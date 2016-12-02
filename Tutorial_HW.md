@@ -9,3 +9,5 @@ Iniziamo a stampare con una stampante 3D i seguenti file STL:
 * [db-breadboard.stl](https://github.com/sgabello1/Dotbot-Kit-e-Tutorial/blob/master/db-breadboard.stl)
 * [db-supports.stl] (https://github.com/sgabello1/Dotbot-Kit-e-Tutorial/blob/master/db-supports.stl )
 * [db-top.stl] (https://github.com/sgabello1/Dotbot-Kit-e-Tutorial/blob/master/db-top.stl)
+* [db-rect.stl] (MANCANO!!)
+
