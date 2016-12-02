@@ -24,4 +24,4 @@ Premete su "Configure" e si aprirà una schermata con la lista delle reti locali
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/list.PNG ) 
 
-Voi ne selezionate una e digitate la password nella casella sottostante. Infine premete "Submit".
+Voi ne selezionate una e digitate la password nella casella sottostante. Infine premete "Submit". Ci mette qualche minuto non temete! Aspettate fino a quando non vi arriva un pop-ip di conferma. Se poi volete essere sicuri di essere connessi riprovate ad andare su  http://hotbot.local/wifi/schemes  
