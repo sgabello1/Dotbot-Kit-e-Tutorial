@@ -92,3 +92,4 @@ Il raspberry ha i pin configurati così:
 
 ![]  (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/RP2_Pinout.png )
 
+Nel nostro caso abbiamo i pin 3,5 per gli input e 4,6 Power e Ground per alimentare la breadboard. I pin 7,11,12 per i LED e 15,16 motore 1 23,24 motore 2.
