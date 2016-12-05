@@ -1,7 +1,7 @@
 ## Tutorial hardware - Come costruire il robot Dotbot ##
 
 
-Qui di seguito un breve tutorial su come assemblare il robot Dotbot. In questo tutorial ci dedichiamo ad assemblare i pezzi del robot e stampare i pezzi necessari. **Un grazie speciale a Michele Maffucci da cui ho preso gran parte (o quasi tutto) questo tutorial!** La configurazione e la programmazione è nei tutorial precedenti.
+Qui di seguito un breve tutorial su come assemblare il robot Dotbot. In questo tutorial ci dedichiamo ad assemblare i pezzi del robot e stampare i pezzi necessari. **Un grazie speciale a Michele Maffucci da cui ho preso gran parte (o quasi tutto) per questo tutorial!** Vedi gli altri tutorial per la configurazione e la programmazione dei dotbot.
 
 Iniziamo a stampare con una stampante 3D i seguenti file STL:
 * 2 X [db-ball_caster.stl] (https://github.com/sgabello1/Dotbot-Kit-e-Tutorial/blob/master/db-ball_caster.stl)
@@ -21,3 +21,7 @@ Iniziamo a stampare con una stampante 3D i seguenti file STL:
 *  2 ruote
 *  1 contenitore per batterie (6 batterie da 1,5 V AA)
 *  1 breadboard da 400 fori
+
+Il kit smontato e con tutti i suoi componenti sarà così:
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/KitTable.jpeg)
