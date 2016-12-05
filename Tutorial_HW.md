@@ -61,7 +61,13 @@ Altrimenti comunque il montaggio non cambia se sostituite al giunto stampato que
 Smontate temporaneamente le ruote per facilitare il montaggio semplicemente tirandole.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/DriverEbatterie.jpeg)
-![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/14.jpeg)
+
+Ora inserite i fili di comando dei motori. Sono due per motore, tenendo conto che i pin del driver (c'è scritto comunque sopra) sono disposti cosi: 
+* pin 1 e 2 - controllo motore 1 
+* pin 3 e 4 - ground e alimentazione
+* pin 5 e 6 - controllo motore 2
+
+
 ## 4 - Fissaggio breadboard ##
 
 (dal blog di Michele Maffucci)
