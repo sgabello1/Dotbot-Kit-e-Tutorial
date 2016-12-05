@@ -62,5 +62,11 @@ Smontate temporaneamente le ruote per facilitare il montaggio semplicemente tira
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/DriverEbatterie.jpeg)
 
+## 4 - Fissaggio breadboard ##
 
+(dal blog di Michele Maffucci)
+
+![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-23.jpg)
+![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-24.jpg)
+![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-25.jpg)
 
