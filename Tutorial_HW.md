@@ -83,3 +83,12 @@ Ok ora inseriamo il Raspberry sopra i propri supporti.
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/7.jpeg)
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/9.jpeg)
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/10.jpeg)
+
+# 6 -Montate il tutto e fate i collegamenti ##
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/15.jpeg)
+
+Il raspberry ha i pin configurati così:
+
+https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/RP2_Pinout.png 
+
