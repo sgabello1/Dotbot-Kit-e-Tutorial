@@ -76,3 +76,10 @@ Ora inserite i fili di comando dei motori. Sono due per motore, tenendo conto ch
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-24.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-25.jpg)
 
+# 5 - Secondo livello ##
+
+Ok ora inseriamo il Raspberry sopra i propri supporti.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/7.jpeg)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/9.jpeg)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/10.jpeg)
