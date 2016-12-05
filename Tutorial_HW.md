@@ -54,7 +54,17 @@ Altrimenti comunque il montaggio non cambia se sostituite al giunto stampato que
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-17.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-18.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-19.jpg)
+
+## 3 - Inserimento giunti stampati in 3d per secondo livello ##
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/5.jpeg)
+
+## 4 - Montaggio batterie ##
+
+Inserite delle fascette da idraulico così:
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/4.jpeg)
 ![] ()
-![] ()
+
 
 
