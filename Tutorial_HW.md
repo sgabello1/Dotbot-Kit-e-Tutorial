@@ -65,8 +65,9 @@ Inserite delle fascette da idraulico così:
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/5.jpeg)
 
+## 5 - Inserimento driver motori ##
 
-![] ()
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/DriverEbatterie.jpeg)
 
 
 
