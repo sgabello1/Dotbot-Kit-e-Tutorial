@@ -30,7 +30,10 @@ Il kit smontato e con tutti i suoi componenti sarà più o meno così:
 Iniziamo a montare!
 
 ## 1 - Montaggio dei motori
+
 (dal blog di Michele Maffucci)
+
+
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-10.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-11.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-12.jpg)
@@ -39,8 +42,13 @@ Iniziamo a montare!
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-15.jpg)
 
 ## 2 - Montaggio delle ruote ominidirezionali realizzate con delle biglie di vetro##
+
 Qui potete montare i giunti esagonali come consiglia il blog di Michele Maffucci oppure sostinuirli con i giunti a forma di parallelepipedo (db-rect.stl). Se prendete questa strada otterrete una cosa così:
+
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/giuntiPrinted.jpeg)
+
+Altrimenti comunque il montaggio non cambia se sostituite al giunto stampato quello esagonale!
+
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-16.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-17.jpg)
 ![] (http://www.maffucci.it/wp-content/uploads/2016/03/DotBot-17.jpg)
