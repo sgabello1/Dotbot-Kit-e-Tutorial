@@ -90,5 +90,5 @@ Ok ora inseriamo il Raspberry sopra i propri supporti.
 
 Il raspberry ha i pin configurati così:
 
-https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/RP2_Pinout.png 
+![]  https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/RP2_Pinout.png 
 
