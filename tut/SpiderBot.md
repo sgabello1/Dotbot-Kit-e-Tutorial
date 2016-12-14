@@ -25,3 +25,7 @@ Poi come si vede in figura fissate il ponte ad H (hg7881) con una fascetta sul d
 Effettuate i collegamenti. Il filo rosso (+) lo inserite nel mammut del Motor A di destra nel ponte ad H e il nero (terra) nel mammut di sinistra. Con un cacciavite chiudete i mammut per far bene contatto. A questo punto prendete dei cavetti femmina-femmina e, due di questi (il mio rosso e marrone) li usate come alimentazione del ponte ad H e altri due li mettete nei pin di controllo del Motor A.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/ponteH.jpeg)
+
+Scaricate l'immagine per il Raspberry da [qui] (https://www.dropbox.com/s/zop0xgrcklc0951/dotbot_v0_2.rar?dl=1) e copiate sull'SD del Raspberry. Configurate il Raspberry che si possa connettere in cloud come nei tutorial precedenti. Ora montate con delle fascette sul supporto verticale insieme alla batteria!
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/Rasp.jpeg)
