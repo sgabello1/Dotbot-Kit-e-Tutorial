@@ -11,6 +11,7 @@ Oltre questo avrete anche bisogno di:
 * cavetti con connettori femmina-femmina
 * fascette da idraulico
 * un pezzo di cartone ;) 
+* un cavetto USB a microUSB da cellulare Android. 
 
 E otterrete SpiderBot in cloud!
 
@@ -26,6 +27,12 @@ Effettuate i collegamenti. Il filo rosso (+) lo inserite nel mammut del Motor A 
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/ponteH.jpeg)
 
-Scaricate l'immagine per il Raspberry da [qui] (https://www.dropbox.com/s/zop0xgrcklc0951/dotbot_v0_2.rar?dl=1) e copiate sull'SD del Raspberry. Configurate il Raspberry che si possa connettere in cloud come nei tutorial precedenti. Ora montate con delle fascette sul supporto verticale insieme alla batteria!
+Scaricate l'immagine per il Raspberry da [qui] (https://www.dropbox.com/s/zop0xgrcklc0951/dotbot_v0_2.rar?dl=1) e copiate sull'SD del Raspberry. Configurate il Raspberry che si possa connettere in cloud come nei tutorial precedenti. Ora montate con delle fascette il Raspberry sul supporto verticale insieme alla batteria!
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/Rasp.jpeg)
+
+Ora facciamo i collegamenti. Secondo questo scema dei pin del raspberry collegate i due cavetti di alimentazione del ponte H ai pin 4 (+ 5V) e 6 (ground). Poi collegate i pin di controllo del motore ai pin 21 e 22. A questo punto basterà collegare il cavo USB-microUSB al Raspberry e funzionerà!
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/RP2_Pinout%20(1).png)
+
+Per farlo muovere collegatevi in piattaforma e usate l'app Test Hardware ( http://www.hotblackrobotics.com/cloud/webgui/hwtest ). Impostate il valore 100, 100 sui motori (anche se di fatto ne controllate solo uno) e premete set motor. Vedrete che lo spider bot inizierà a muoversi! Ovviamente mettendo valori diversi si muoverà più o meno veloce e cambiando segno al valore impostato si muoverà al contrario. Prossimo tutorial con due Spiderbot costruiremo uno Spider Bot in grado di andare avanti, indietro e pure girare! 
