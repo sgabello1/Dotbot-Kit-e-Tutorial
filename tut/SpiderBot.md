@@ -16,6 +16,12 @@ E otterrete SpiderBot in cloud!
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/SpiderBotCloud2.jpeg)
 
-Una volta montato lo Spider Bot come dalle istruzioni di Tiger, prendete un pezzo di materiale rigido  (io ho usato un cartone) e ne ritagliate un rettangolo per farci stare il Raspberry. Poi tagliate la parte inferiore in modo da creare una linguetta centrale che andrete a far passare dentro l'appiglio di plastica del robot. Lo ripiegate dentro e lo fissate, io ho usato spillatrice. 
+Una volta montato lo Spider Bot come dalle istruzioni di Tiger, prendete un pezzo di materiale rigido  (io ho usato un cartone) e ne ritagliate un rettangolo per farci stare il Raspberry. Poi tagliate la parte inferiore in modo da creare una linguetta centrale che andrete a far passare dentro l'appiglio di plastica del robot. Lo ripiegate dentro e lo fissate, io ho usato una spillatrice. 
+
+Poi come si vede in figura fissate il ponte ad H (hg7881) con una fascetta sul davanti del robot.  
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/Cartone.jpeg) 
+
+Effettuate i collegamenti. Il filo rosso (+) lo inserite nel mammut del Motor A di destra nel ponte ad H e il nero (terra) nel mammut di sinistra. Con un cacciavite chiudete i mammut per far bene contatto. A questo punto prendete dei cavetti femmina-femmina e, due di questi (il mio rosso e marrone) li usate come alimentazione del ponte ad H e altri due li mettete nei pin di controllo del Motor A.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/ponteH.jpeg)
