@@ -14,4 +14,4 @@ Oltre questo avrete anche bisogno di:
 
 E otterrete SpiderBot in cloud!
 
-![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/SpiderBotCloud.jpeg)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/SpiderBotCloud2.jpeg)
