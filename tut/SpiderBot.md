@@ -12,6 +12,6 @@ Oltre questo avrete anche bisogno di:
 * fascette da idraulico
 * un pezzo di cartone ;) 
 
-E otterrete SpiderBot!
+E otterrete SpiderBot in cloud!
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/SpiderBotCloud.jpeg)
