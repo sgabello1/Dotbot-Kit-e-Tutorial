@@ -2,7 +2,7 @@
 
 Qui vi spiegherò come modificare un robot comprato da Tiger e collegarlo in piattaforma! Nel mio caso ho comprato uno Spider Robot per ben 7 Euro!:)
 
-![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderrobot.jpeg)
+![](https://pbs.twimg.com/media/CWmEXs7WUAABSLl.jpg)
 
 Oltre questo avrete anche bisogno di:
 * un power bank per cellulare da 5 Volt io ho usato questo [link](http://www.dx.com/p/cylinder-shaped-external-6000mah-emergency-power-battery-charger-for-iphone-cell-phone-silver-206652#.WFFUEh9ifCI) ma potete usare anche power bank da 9 volt
