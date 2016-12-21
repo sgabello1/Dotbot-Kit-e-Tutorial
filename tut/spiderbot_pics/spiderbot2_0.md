@@ -1,5 +1,6 @@
 Dopo il tutorial "Come collegare un robot comprato da Tiger (Spider Robot) in piattaforma cloud" vi avevo promesso che avrei comprato un secondo ragno robotico da Tiger così da costruire un robot in grado di muoversi in ogni direzione.
 Il materiale utilizzato è lo stesso del tutorial precedente ma con una batteria power bank in più.
+
 Lista:
 
 * 2 spider robot comprati da Tiger
@@ -19,3 +20,13 @@ Unite i cavetti di alimentazione dei motori ai connettori delle batterie. Dopo u
 Ritagliate un pezzo di cartone di questa forma con due linguette da inserire dentro i supporti di plastica dei due robot.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/2.jpeg)
+
+Poi pinzate le linguette in modo da fissarle.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/3.jpeg)
+
+A questo punto fissate con delle fascette da idraulico tutto il sistema composto da Raspberry pi + ponte ad H + le 2 batterie. 
+
+Così:
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/4.jpeg)
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/5.jpeg)
