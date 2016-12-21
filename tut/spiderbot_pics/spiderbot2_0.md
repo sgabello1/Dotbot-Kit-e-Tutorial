@@ -41,4 +41,60 @@ Il ponte ad H:
 
 ![] (https://i.ytimg.com/vi/mKfTi3iD518/maxresdefault.jpg) 
 
-Ora collegate ogni alimentazione dei motori (motere A e motore B) ai rispettivi mammut del ponte ad H. Poi collegate il controllo dei motori (A-1A, A-1B e B-1A, B-1B) con i GPIO 9,25 (pin 21,22 o contando 10 dal basso) e GPIO 22,23 (pin 15,16 o contando 13 dal basso)del Raspberry. Infine l'alimentazione la collegate a una delle due batterie (occhio solo che abbia sufficienti Ampere altrimenti i motori non hanno sufficiente potenza e non si muovono).
+Ora collegate ogni alimentazione dei motori (motere A e motore B) ai rispettivi mammut del ponte ad H. Poi collegate il controllo dei motori (A-1A, A-1B e B-1A, B-1B) con i GPIO 9,25 (pin 21,22 o contando 10 dal basso) e GPIO 22,23 (pin 15,16 o contando 13 dal basso)del Raspberry. Infine l'alimentazione la collegate a una delle due batterie (fate attenzione solo che abbia almeno 1 o 2 Ampere altrimenti i motori non hanno abbastanza potenza e non si muovono).
+
+Ora configurate il Raspberry come da [http://www.hotblackrobotics.com/forum/support/13](http://www.hotblackrobotics.com/forum/support/13).
+
+E siete pronti a partire!
+Se volete usare il controllo vocale copiate il codice da qui e usatelo tramite la Web App come spiegato qui [http://www.hotblackrobotics.com/forum/support/24](http://www.hotblackrobotics.com/forum/support/24).
+
+```
+
+import dotbot_ros
+from dotbot_msgs.msg import Led
+from dotbot_msgs.msg import Speed
+from std_msgs.msg import String
+import sys
+
+class Node(dotbot_ros.DotbotNode):
+    def setup(self):
+        self.led_pub = dotbot_ros.Publisher('led', Led)
+        self.speed_pub = dotbot_ros.Publisher('speed', Speed)
+        dotbot_ros.Subscriber('speech', String, self.on_speech)
+        print 'setup'
+
+    #@dotbot_ros.on_topic('speech', String)
+    def on_speech(self, speech_msg):
+        led_msg = Led()
+        speed_msg = Speed()
+        print speech_msg.data
+        sys.stdout.flush()
+        if speech_msg.data == 'avanti':
+            led_msg.led1 = True
+            speed_msg.sx = 100
+            speed_msg.dx = 100
+            self.led_pub.publish(led_msg)
+            self.speed_pub.publish(speed_msg)
+        elif speech_msg.data == 'sinistra':
+            speed_msg.sx = -100
+            speed_msg.dx = 100
+            self.speed_pub.publish(speed_msg)
+        elif speech_msg.data == 'destra':
+            speed_msg.sx = 100
+            speed_msg.dx = -100
+            self.speed_pub.publish(speed_msg)
+        elif speech_msg.data == 'indietro':
+            speed_msg.sx = -100
+            speed_msg.dx = -100
+            self.speed_pub.publish(speed_msg)
+        elif speech_msg.data == 'fermo':
+            led_msg.led1 = False
+            speed_msg.sx = 0
+            speed_msg.dx = 0
+            self.led_pub.publish(led_msg)
+            self.speed_pub.publish(speed_msg)
+
+
+
+```
+
