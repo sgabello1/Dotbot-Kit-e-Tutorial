@@ -98,3 +98,4 @@ class Node(dotbot_ros.DotbotNode):
 
 ```
 
+Per informazioni info@hotblackrobotics.com Per la licenza da beta tester gratis registratevi qui http://www.hotblackrobotics.com/register.
