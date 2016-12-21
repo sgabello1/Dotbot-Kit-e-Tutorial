@@ -30,3 +30,13 @@ A questo punto fissate con delle fascette da idraulico tutto il sistema composto
 Così:
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/4.jpeg)
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/5.jpeg)
+
+Ora effettuiamo i collegamenti.
+
+I pin del Raspberry sono:
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/RP2_Pinout%20(1).png)
+
+Il ponte ad H:
+
+![] (https://i.ytimg.com/vi/mKfTi3iD518/maxresdefault.jpg) 
