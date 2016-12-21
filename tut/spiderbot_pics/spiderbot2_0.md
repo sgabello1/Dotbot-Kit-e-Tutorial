@@ -14,3 +14,8 @@ Lista:
 Per prima cosa montate i due Spider Robot come dalle istruzioni di Tiger. Poi smontate una parte dei robot e uniteli insieme come in figura.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/1.jpeg)
+
+Unite i cavetti di alimentazione dei motori ai connettori delle batterie. Dopo uniremo ai connettori delle batterie altri cavetti al ponte H.
+Ritagliate un pezzo di cartone di questa forma con due linguette da inserire dentro i supporti di plastica dei due robot.
+
+![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/spiderbot_pics/2.jpeg)
