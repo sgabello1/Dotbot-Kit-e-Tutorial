@@ -5,7 +5,7 @@
 L'Internet delle Cose sta già creando diversi dispositivi *smart* ovvero connessi in rete (ad esempio lo smart watch o Nest il termostato intelligente) e secondo le principali previsioni di mercato nell'imminente futuro si vedranno nuovi dispositivi ancora più intelligenti in grado di interagire fisicamente con il mondo fisico: i robot.
 La robotica uscirà dal tradizionale mondo industriale e arriverà nella nostra vita quotidiana. Diversamente da oggi dove nell'automazione industriale i robot sono programmati una volta sola per effettuare operazioni noiose e ripetitive, grazie all' Internet delle cose e le infrastrutture cloud i robot, esattamente come gli smartphone di oggi scaricando un'app o accedendo a del software in remoto, potranno svolgere qualsiasi tipo di servizio all'uomo abilitando appunto la robotica di servizio.   
 
-![] ou ou ou(http://images.milano.corriereobjects.it/methode_image/socialshare/2015/08/20/e1026e32-4752-11e5-aa5e-2130add6a46c.jpg)
+![ capition ](http://images.milano.corriereobjects.it/methode_image/socialshare/2015/08/20/e1026e32-4752-11e5-aa5e-2130add6a46c.jpg)
 
 
 La robotica cambierà la nostra vita esattamente come è stato per gli smartphone e vedremo la nascita di nuove figure professionali.
