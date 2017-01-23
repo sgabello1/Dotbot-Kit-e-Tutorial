@@ -1,4 +1,6 @@
 ## Il futuro professionale delle nuove generazioni nel mondo della robotica e la nostra esperienza di alternanza scuola-lavoro ##
+
+## La robotica di servizio ##
  
 L'Internet delle Cose sta già creando diversi dispositivi *smart* ovvero connessi in rete (vedi ad esempio lo smart watch o Nest il termostato intelligente)
 e nell'imminente futuro si vedranno nuovi dispositivi ancora più intelligenti in grado di interagire fisicamente con il mondo fisico: i robot.
