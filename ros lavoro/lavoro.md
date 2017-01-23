@@ -7,10 +7,10 @@ I robot usciranno dal tradizionale mondo industriale, nel quale siamo abituati a
 
 ![ ](http://images.milano.corriereobjects.it/methode_image/socialshare/2015/08/20/e1026e32-4752-11e5-aa5e-2130add6a46c.jpg)
 
-Figura 1: Barista robotico, un progetto di Carlo Ratti
+Figura 1: Barista robotico, un esempio di robotica di servizio come progetto visionario del Professor Carlo Ratti
 
 
-In totale analogia con quanto successo con gli smartphone quando si crearono nuove figure professionali, come lo sviluppatore di applicazioni, così anche con la robotica si creeranno nuove figure lavorative. Lo sviluppatore di applicazioni robotiche potrà diventare quindi il lavoro del futuro. 
+In totale analogia a quanto successo con gli smartphone quando si crearono nuove figure professionali, come lo sviluppatore di applicazioni, così anche con la robotica si creeranno nuove figure lavorative. Lo sviluppatore di applicazioni robotiche potrà diventare quindi il lavoro del futuro. 
 
 ## ROS il nuovo Android #
 
@@ -18,23 +18,23 @@ Il parallelo di Android per la robotica si chiama [ROS](http://wiki.ros.org/it) 
 
 ![](https://www.gminsights.com/assets/img/service-robotics-market-size.png)
 
-Figura 2: le previsioni del mercato della robotica
+Figura 2: Andamento delle previsioni del mercato della robotica nei relativi settori
 
 ## Coltivare una nuova generazione di sviluppatori robotici ##
 
-In questa visione noi crediamo fermamente. Quindi dopo un dottorato in ingegneria robotica al Politecnico di Torino e un'esperienza di ricerca in Telecom Italia abbiamo deciso di scommettere fortemente su questi temi e fondare [HotBlack Robotics](www.hotblackrobotics.com). Il nostro obiettivo è quello di eliminare la barriera all'ingresso di ROS (ad oggi abbastanza complicato siccome funziona principalmente su Linux) e offrire tutte le potenzialità dell'Internet delle Cose con una piattaforma di cloud robotics.
+In questa visione noi crediamo fermamente. Quindi dopo un dottorato in ingegneria robotica al Politecnico di Torino e un'esperienza di ricerca in Telecom Italia abbiamo deciso di scommettere fortemente su questi temi e fondare [HotBlack Robotics](www.hotblackrobotics.com). Il nostro obiettivo è quello di eliminare la barriera all'ingresso di ROS democratizzando la robotica (ad oggi abbastanza complicato siccome funziona principalmente sui sistemi Linux) e offrire le potenzialità dell'Internet delle Cose con una piattaforma di cloud robotics.
 
-Il primo esperimento è stato quello di fornire un percorso di alternanza scuola-lavoro all'ITIS Avogadro di Torino dove ci ha visti coinvolgere 3 classi di quarta per un totale di 90 ragazzi (1 classe di Elettrotecnici e 2 di Informatici). Il programma prevede una parte inziale di costruzione e configurazione del robot DotBot (grazie al supporto di un insegnante e nostro amico [Michele Maffucci](http://www.maffucci.it/)), una parte di programmazione in ROS per poi finire con progetti personali per stimolare la creatività.
+Il nostr primo esperimento quindi è stato quello di fornire un percorso di alternanza scuola-lavoro all'ITIS Avogadro di Torino dove abbiamo coinvolto 3 classi di quarta per un totale di 90 ragazzi (una classe di Elettrotecnici e due di Informatici). Il programma prevede una parte inziale di costruzione e configurazione del robot DotBot (grazie al supporto di un insegnante e nostro amico [Michele Maffucci](http://www.maffucci.it/)), una parte di programmazione in ROS per poi finire con progetti personali per stimolare la creatività.
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/dotbot_git2/WhatsApp%20Image%202017-01-18%20at%2012.34.06%20(4).jpeg) 
 
-Figura 4: il robot DotBot
+Figura 4: Il robot DotBot
 
 ![] (http://res.cloudinary.com/hbr/image/upload/v1485173582/IMG_20170118_114658-PANO_ye4xbh.jpg)
 
-Figura 3: il programma di alternanza scuola-lavoro
+Figura 3: Il programma di alternanza scuola-lavoro
 
-Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) e un [blog] (http://www.hotblackrobotics.com/blog/posts/) per rendere possibile a tutti la formazione anche tramite Internet.
+Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) e un [blog] (http://www.hotblackrobotics.com/blog/posts/) per rendere possibile a tutti la formazione su queste importanti tematiche anche in remoto tramite Internet.
 
 Riusciremo a coltivare una nuova generazione di sviluppatori robotici?
 
