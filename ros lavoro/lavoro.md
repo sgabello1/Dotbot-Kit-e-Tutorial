@@ -10,11 +10,11 @@ I robot usciranno dal tradizionale mondo industriale, nel quale siamo abituati a
 Figura 1: Barista robotico, un progetto di Carlo Ratti
 
 
-In totale analogia con quanto successo con gli smartphone che si crearono nuove figure professionali, come lo sviluppatore di applicazioni, così anche con la robotica si creeranno nuove figure lavorative. Lo sviluppatore di applicazioni robotiche potrà essere quindi il lavoro del futuro. 
+In totale analogia con quanto successo con gli smartphone quando si crearono nuove figure professionali, come lo sviluppatore di applicazioni, così anche con la robotica si creeranno nuove figure lavorative. Lo sviluppatore di applicazioni robotiche potrà diventare quindi il lavoro del futuro. 
 
 ## ROS il nuovo Android #
 
-Il parallelo di Android per la robotica si chiama [ROS](http://wiki.ros.org/it) - Robotic Operating System - che è il sistema operativo più usato nei robot di servizio che potete trovare in commercio. E' stato sviluppato nell' università di Stanford come software open source e ha un enorme comunità a seguito. Oltre che essere supportato da Google. Inoltre iniziano già a vedersi [posizioni lavorative](http://www.ros.org/news/jobs/) che chiedono espressamente competenze in ROS e robotica.
+Il parallelo di Android per la robotica si chiama [ROS](http://wiki.ros.org/it) - Robotic Operating System. ROS è il sistema operativo della robotica di servzio ed è compatibile con la maggior parte dei robot che potete trovare in commercio. E' stato sviluppato dall' università di Stanford come software open source e ha un enorme comunità a seguito. Oltre che essere supportato da Google. La sua crescente popolarità è dimostrata dalle nuove [posizioni lavorative](http://www.ros.org/news/jobs/) che companiono tra le aziende più innovative al mondo e dove si chiede espressamente una competenza in ROS e robotica.
 
 ![](https://www.gminsights.com/assets/img/service-robotics-market-size.png)
 
