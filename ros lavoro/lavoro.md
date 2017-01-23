@@ -24,13 +24,13 @@ Figura 2: le previsioni del mercato della robotica
 
 In questa visione noi crediamo fermamente. Quindi dopo un dottorato in ingegneria robotica al Politecnico di Torino e un'esperienza di ricerca in Telecom Italia abbiamo deciso di scommettere fortemente su questi temi e fondare [HotBlack Robotics](www.hotblackrobotics.com). Il nostro obiettivo è quello di eliminare la barriera all'ingresso di ROS (ad oggi abbastanza complicato siccome funziona principalmente su Linux) e offrire tutte le potenzialità dell'Internet delle Cose con una piattaforma di cloud robotics.
 
-Il primo esperimento è stato quello di fornire un percorso di alternanza scuola-lavoro all'ITIS Avogadro di Torino do ve ci ha visti coinvolgere 3 classi di quarta per un totale di 90 ragazzi (1 classe di Elettrotecnici e 2 di Informatici). Il programma prevede una parte inziale di costruzione e configurazione del robot DotBot (grazie al supporto di un insegnante e nostro amico Michele Maffucci), una parte di programmazione in ROS per poi finire con progetti personali per stimolare la creatività.
+Il primo esperimento è stato quello di fornire un percorso di alternanza scuola-lavoro all'ITIS Avogadro di Torino dove ci ha visti coinvolgere 3 classi di quarta per un totale di 90 ragazzi (1 classe di Elettrotecnici e 2 di Informatici). Il programma prevede una parte inziale di costruzione e configurazione del robot DotBot (grazie al supporto di un insegnante e nostro amico Michele Maffucci), una parte di programmazione in ROS per poi finire con progetti personali per stimolare la creatività.
 
 ![] (http://res.cloudinary.com/hbr/image/upload/v1485173582/IMG_20170118_114658-PANO_ye4xbh.jpg)
 
 Figura 3: il programma di alternanza scuola-lavoro
 
-Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) per replicare la nostra esperienza di formazione anche da remoto!
+Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) per rendere possibile a tutti la formazione anche tramite Internet.
 
 Riusciremo a coltivare una nuova generazione di sviluppatori robotici?
 
