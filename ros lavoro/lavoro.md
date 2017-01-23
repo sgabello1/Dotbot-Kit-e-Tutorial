@@ -2,8 +2,8 @@
 
 ## La robotica di servizio ##
  
-Con l'Internet delle Cose già sono in commercio i primi  dispositivi *smart*, ovvero connessi in rete, e secondo le più  autorevoli previsioni di mercato si vedranno presto nuovi dispositivi ancora più intelligenti e in grado di interagire con il mondo fisico: i robot.
-La robotica uscirà dal tradizionale mondo industriale ed entrerà nella nostra vita quotidiana. Diversamente da oggi dove nell'automazione industriale i robot sono programmati una volta sola per effettuare operazioni noiose e ripetitive, grazie all' Internet delle cose e le infrastrutture cloud i robot, esattamente come oggi gli smartphone scaricando un'app o accedendo a del software in remoto, potranno svolgere qualsiasi tipo di servizio per l'uomo abilitando appunto la robotica di servizio.   
+Con l'Internet delle Cose si vedono già in commercio i primi  dispositivi *smart*, ovvero connessi in rete, e secondo le più  autorevoli previsioni di mercato si vedranno presto nuovi dispositivi ancora più intelligenti e in grado di interagire con il mondo fisico: i robot.
+I robot usciranno dal tradizionale mondo industriale, nel quale siamo abituati a vederli, ed entreranno nella nostra vita quotidiana. Infatti i robot industriali sono programmati una volta sola per effettuare operazioni noiose e ripetitive. Mentre in futuro, grazie a Internet e le piattaforme di cloud robotics, i robot potranno svolgere qualsiasi tipo di servizio. Creando così la robotica di servizio. , esattamente come oggi gli smartphone scaricando un'app o accedendo a del software in remoto,  
 
 ![ ](http://images.milano.corriereobjects.it/methode_image/socialshare/2015/08/20/e1026e32-4752-11e5-aa5e-2130add6a46c.jpg)
 
