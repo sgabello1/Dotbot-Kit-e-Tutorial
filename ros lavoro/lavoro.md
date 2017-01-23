@@ -28,11 +28,11 @@ Il nostr primo esperimento quindi è stato quello di fornire un percorso di alte
 
 ![] (https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/tut/dotbot_git2/WhatsApp%20Image%202017-01-18%20at%2012.34.06%20(4).jpeg) 
 
-Figura 4: Il robot DotBot
+Figura 3: Il robot DotBot
 
 ![] (http://res.cloudinary.com/hbr/image/upload/v1485173582/IMG_20170118_114658-PANO_ye4xbh.jpg)
 
-Figura 3: Il programma di alternanza scuola-lavoro
+Figura 4: Il programma di alternanza scuola-lavoro
 
 Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) e un [blog] (http://www.hotblackrobotics.com/blog/posts/) per rendere possibile a tutti la formazione su queste importanti tematiche anche in remoto tramite Internet.
 
