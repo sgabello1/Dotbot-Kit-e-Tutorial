@@ -26,7 +26,7 @@ Il primo esperimento è stato quello di fornire un percorso di alternanza scuola
 
 ![] (http://res.cloudinary.com/hbr/image/upload/v1485173582/IMG_20170118_114658-PANO_ye4xbh.jpg)
 
-Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di (tutorial)[http://www.hotblackrobotics.com/forum/support] per replicare la nostra esperienza di formazione anche da remoto!
+Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) per replicare la nostra esperienza di formazione anche da remoto!
 
 Riusciremo a coltivare una nuova generazione di sviluppatori robotici?
 
