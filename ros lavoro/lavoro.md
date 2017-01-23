@@ -34,7 +34,7 @@ Figura 4: il robot DotBot
 
 Figura 3: il programma di alternanza scuola-lavoro
 
-Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) e un [Blog] (http://www.hotblackrobotics.com/blog/posts/) per rendere possibile a tutti la formazione anche tramite Internet.
+Gli accessi alla piattaforma sono gratis e si ottengono registrandosi [qui](http://www.hotblackrobotics.com/register) e ci stiamo impegnando a scrivere una serie di [tutorial](http://www.hotblackrobotics.com/forum/support) e un [blog] (http://www.hotblackrobotics.com/blog/posts/) per rendere possibile a tutti la formazione anche tramite Internet.
 
 Riusciremo a coltivare una nuova generazione di sviluppatori robotici?
 
