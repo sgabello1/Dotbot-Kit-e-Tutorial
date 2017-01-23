@@ -7,12 +7,17 @@ Secondo me questa funzionalità è quella che permetterà i robot (anche costrui
 
 Inizerò con illustare le tecniche più usate con i relativi pro e contro. Le tecniche sono moltissime quindi mi limiterò alle più usate e più innovative.
 
+## GPS ##
+
 ## Line Follower ##
+
+## Beacon ##
+
 
 ## SLAM - Simultaneous Localization And Mapping ##
 
 Lo slam è un mondo.
 
-# Laser Scanner # 
+## Laser Scanner ## 
 
-# Mono camera - Visual SLAM # 
+## Mono camera - Visual SLAM ## 
