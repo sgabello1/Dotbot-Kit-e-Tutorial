@@ -3,14 +3,14 @@
 ## La robotica di servizio ##
  
 Con l'Internet delle Cose si vedono già in commercio i primi  dispositivi *smart*, ovvero connessi in rete, e secondo le più  autorevoli previsioni di mercato si vedranno presto nuovi dispositivi ancora più intelligenti e in grado di interagire con il mondo fisico: i robot.
-I robot usciranno dal tradizionale mondo industriale, nel quale siamo abituati oggi a vederli, ed entreranno nella nostra vita quotidiana. Infatti i robot nelle industrie sono programmati da professionisti con del software sofisticatissimo per effettuare operazioni noiose e ripetitive. Quasi mai il codice viene cambiato se le operazioni vengono svolte in modo soddisfacente. Mentre in futuro grazie a Internet e le piattaforme di cloud robotics i robot potranno adattarsi velocemente, scaricando applicazioni  o facendosi supportare da del software dalla rete, per svolgere qualsiasi tipo di servizio. Creando così la robotica di servizio. , esattamente come oggi gli smartphone scaricando un'app o accedendo a del software in remoto,  
+I robot usciranno dal tradizionale mondo industriale, nel quale siamo abituati oggi a vederli, ed entreranno nella nostra vita quotidiana. Infatti i robot nelle industrie sono programmati da professionisti con del software sofisticatissimo per effettuare operazioni noiose e ripetitive. Quasi mai il codice viene cambiato se le operazioni vengono svolte in modo soddisfacente. Con la cloud robotics invece i robot potranno adattarsi velocemente, scaricando applicazioni  o facendosi supportare da del software dalla rete, per svolgere qualsiasi tipo di servizio. Creando così: la robotica di servizio. 
 
 ![ ](http://images.milano.corriereobjects.it/methode_image/socialshare/2015/08/20/e1026e32-4752-11e5-aa5e-2130add6a46c.jpg)
 
 Figura 1: Barista robotico, un progetto di Carlo Ratti
 
 
-Esattamente come l'arrivo degli smartphone ha creato nuove figure professionali così anche la robotica creerà la figura dello sviluppatore di applicazioni robotiche.
+In totale analogia con quanto successo con gli smartphone che si crearono nuove figure professionali, come lo sviluppatore di applicazioni, così anche con la robotica si creeranno nuove figure lavorative. Lo sviluppatore di applicazioni robotiche potrebbe essere il lavoro del futuro. 
 
 ## ROS il nuovo Android #
 
