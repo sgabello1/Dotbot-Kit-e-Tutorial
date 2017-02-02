@@ -53,3 +53,5 @@ Ovviamente la cosa interessante è combinare poi le due funzionalità della Web 
 
 ![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech-Bot.jpg)
 
+Potete scrivere un nodo ROS, che nel mio schema ho chiamato "Bot", che quando dite una parola lui risponde di conseguenza!Nei prossimi tutorial possiamo anche vedere come mettereun po' di intelligenza artificiale e costruire un vero e proprio Bot con cui potete dialogare!
+
