@@ -7,9 +7,12 @@ Iniziamo quindi a far "parlare" il computer tramite ROS. Apriamo la Web App "Spe
 
 
 ![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/WEB%20APP.png)
-Web App Speech rec
 
-Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer magicamente parlerà!
+Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer magicamente parlerà! Lo schema concettuale di funzionamento è come in figura.
+
+![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech.jpg)
+Schema di funzionamento - da ROS alla Web App in Javascript
+
 Il nodo ROS di esempio io l'ho scritto così.
 
 ```
@@ -17,7 +20,6 @@ import dotbot_ros
 import sys
 import os
 from std_msgs.msg import String
-import math
 import rospy
 from time import sleep
 
@@ -46,7 +48,5 @@ class Node(dotbot_ros.DotbotNode):
         sys.stdout.flush()
         rospy.signal_shutdown("spegniti")
 ```
+E' un semplicissimo nodo che pubblica tre stringhe in tempi diversi. Una volta terminato il programma terminiamo il nodo in modo da lasciare tutti i processi puliti ``` rospy.signal_shutdown("spegniti") ``` .
 
-
-![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech.jpg)
-Schema di funzionamento - da ROS alla Web App in Javascript
