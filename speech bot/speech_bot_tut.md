@@ -6,7 +6,7 @@ Tecnicamente si chiama TTS - [text to speech](https://en.wikipedia.org/wiki/Spee
 Iniziamo quindi a far "parlare" il computer tramite ROS. Apriamo la Web App "Speech Rec", che trovate su [http://www.hotblackrobotics.com/cloud/webgui/speech](http://www.hotblackrobotics.com/cloud/webgui/speech) oppure nella tendina "Apps". Questa Web App l'abbiamo già vista in precedenza quando usavamo il controllo vocale. Prima con questa Web App potevamo impartire ordini al robot tramite la nostra voce, ora invece usiamo il sintetizzatore vocale per ottenere una risposta o un feedback. In questa Web App abbiamo un modulo in javascript in grado di sintetizzare la voce umana. Premendo sul tasto "Bot" il computer ci accoglierà con un caloroso "Eccomi!". Da questo momento vedrete nella sezione "Console ROS" la creazione di un nuovo topic ```/<nome_del_vostro_robot>/to_speech ```
 
 
-![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/WEB%20APP.png)
+![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/web%20app%202.png)
 
 Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer parlerà! Lo schema concettuale di funzionamento è come in figura.
 
