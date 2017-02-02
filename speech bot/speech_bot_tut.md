@@ -3,17 +3,17 @@
 Un'applicazione cloud interessante e molto divertente è far parlare il vostro robot! 
 Tecnicamente si chiama TTS - [text to speech](https://en.wikipedia.org/wiki/Speech_synthesis), o *sintesi vocale*. I sistemi TextToSpeech (letteralmente da testo a voce) consistono appunto nel convertire un testo e riprodurlo da un sintetizzatore vocale tramite un computer. Ovviamente le applicazioni nella robotica sono tantissime, e quello che faremo è gettare le basi per costruire un assistente robotico con cui potrete dialogare!
 
-Iniziamo quindi a far "parlare" il computer tramite ROS. Apriamo la Web App "Speech Rec", che trovate su [http://www.hotblackrobotics.com/cloud/webgui/speech](http://www.hotblackrobotics.com/cloud/webgui/speech) oppure nella tendina "Apps". In questa Web App abbiamo un modulo in javascript in grado di sintetizzare la voce umana. Premendo sul tasto "Bot" il computer ci accoglierà con un caloroso "Eccomi!". Da questo momento vedrete nella sezione "Console ROS" la creazione di un nuovo topic ```/<nome_del_vostro_robot>/to_speech ```
+Iniziamo quindi a far "parlare" il computer tramite ROS. Apriamo la Web App "Speech Rec", che trovate su [http://www.hotblackrobotics.com/cloud/webgui/speech](http://www.hotblackrobotics.com/cloud/webgui/speech) oppure nella tendina "Apps". Questa Web App l'abbiamo già vista in precedenza quando usavamo il controllo vocale. Prima con questa Web App potevamo impartire ordini al robot tramite la nostra voce, ora invece usiamo il sintetizzatore vocale per ottenere una risposta o un feedback. In questa Web App abbiamo un modulo in javascript in grado di sintetizzare la voce umana. Premendo sul tasto "Bot" il computer ci accoglierà con un caloroso "Eccomi!". Da questo momento vedrete nella sezione "Console ROS" la creazione di un nuovo topic ```/<nome_del_vostro_robot>/to_speech ```
 
 
 ![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/WEB%20APP.png)
 
-Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer magicamente parlerà! Lo schema concettuale di funzionamento è come in figura.
+Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer parlerà! Lo schema concettuale di funzionamento è come in figura.
 
 ![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech.jpg)
 Schema di funzionamento - da ROS alla Web App in Javascript
 
-Il nodo ROS di esempio io l'ho scritto così.
+Il nodo ROS è un semplice publisher di stringhe in tempi diversi. Una volta pubblicate tutte le stringhe terminiamo il nodo in modo da lasciare tutti i processi puliti con ``` rospy.signal_shutdown("spegniti") ``` .
 
 ```
 import dotbot_ros
@@ -48,5 +48,5 @@ class Node(dotbot_ros.DotbotNode):
         sys.stdout.flush()
         rospy.signal_shutdown("spegniti")
 ```
-E' un semplicissimo nodo che pubblica tre stringhe in tempi diversi. Una volta terminato il programma terminiamo il nodo in modo da lasciare tutti i processi puliti ``` rospy.signal_shutdown("spegniti") ``` .
+
 
