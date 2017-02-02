@@ -10,7 +10,7 @@ Iniziamo quindi a far "parlare" il computer tramite ROS. Apriamo la Web App "Spe
 
 Ora basterà scrivere un nodo ROS che pubblica sul nodo ```/<nome_del_vostro_robot>/to_speech ``` una stringa e il vostro computer parlerà! Lo schema concettuale di funzionamento è come in figura.
 
-![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech.jpg)
+![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech%20(1).jpg)
 Schema di funzionamento - da ROS alla Web App in Javascript
 
 Il nodo ROS è un semplice publisher di stringhe in tempi diversi. Una volta pubblicate tutte le stringhe terminiamo il nodo in modo da lasciare tutti i processi puliti con ``` rospy.signal_shutdown("spegniti") ``` .
