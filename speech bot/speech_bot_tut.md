@@ -26,6 +26,7 @@ from time import sleep
 class Node(dotbot_ros.DotbotNode):
     node_name = 'speech_bot_pub'
     
+    
     def setup(self):
         self.pub_position = dotbot_ros.Publisher('/listener', String)
         self.msg = String()
