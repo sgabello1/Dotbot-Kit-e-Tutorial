@@ -49,5 +49,7 @@ class Node(dotbot_ros.DotbotNode):
         sys.stdout.flush()
         rospy.signal_shutdown("spegniti")
 ```
+Ovviamente la cosa interessante è combinare poi le due funzionalità della Web App. Quindi in input interpretare i comandi vocali della tua voce, processarli e dare in output una risposta. Concettualmente si può schematizzare così.
 
+![](https://raw.githubusercontent.com/sgabello1/Dotbot-Kit-e-Tutorial/master/speech%20bot/TextToSpeech-Bot.jpg)
 
