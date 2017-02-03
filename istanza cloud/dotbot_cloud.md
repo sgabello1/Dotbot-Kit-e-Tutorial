@@ -12,5 +12,8 @@ Entriamo in piattaforma (effettuando il login) e cerchiamo il robot in cloud con
 
 ![](http://res.cloudinary.com/www-hotblackrobotics-com/image/upload/v1486144089/Schermata_2017-02-03_alle_18.07.33_blhaox.png)
 
+Ora andiamo nella "ROS console" e vediamo cosa succede.
+
+![](http://res.cloudinary.com/www-hotblackrobotics-com/image/upload/v1486144458/Schermata_2017-02-03_alle_18.52.51_fags1l.png)
 
 
