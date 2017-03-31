@@ -1,4 +1,3 @@
-![](https://www.dropbox.com/s/9d6l54jty26ph1y/DR4GHE2.pdf?dl=0)
 
 ## Avete problemi hardware? C'è il robot in cloud accessibile da remoto tramite il vostro PC o cellulare ##
 
